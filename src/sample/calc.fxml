@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Text layoutX="271.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите операцию двух чисел:" textAlignment="CENTER" wrappingWidth="746.3857421875">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <TextField fx:id="count" layoutX="287.0" layoutY="352.0" prefHeight="68.0" prefWidth="714.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </TextField>
+      <Text layoutX="347.0" layoutY="543.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результат:" textAlignment="CENTER" wrappingWidth="601.3857421875">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Text>
+      <Button fx:id="send" layoutX="397.0" layoutY="426.0" mnemonicParsing="false" onAction="#send" prefHeight="74.0" prefWidth="495.0" text="Рассчитать" textAlignment="CENTER">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Text fx:id="result" layoutX="11.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="1273.3857421875">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
