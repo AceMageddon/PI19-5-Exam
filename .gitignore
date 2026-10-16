@@ -1,0 +1,8 @@
+# Compiled output
+out/
+
+# JavaFX SDK jars (download the SDK separately, see README)
+lib/
+
+# IDE files
+.idea/
